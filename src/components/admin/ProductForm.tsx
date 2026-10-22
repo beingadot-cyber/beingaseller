@@ -124,7 +124,7 @@ export default function ProductForm({
               className="input font-mono"
               value={f.productCode}
               onChange={(e) => set("productCode", e.target.value.toUpperCase())}
-              placeholder="SSC-016"
+              placeholder="BAD16"
               required
             />
           </div>

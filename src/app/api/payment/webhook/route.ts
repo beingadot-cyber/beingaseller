@@ -18,7 +18,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const merchantOrderId: string | undefined =
       body?.payload?.merchantOrderId || body?.payload?.originalMerchantOrderId;
-    if (merchantOrderId && /^SSC-\d+$/.test(merchantOrderId)) {
+    if (merchantOrderId && /^BAS-\d+$/.test(merchantOrderId)) {
       await syncOrderPayment(merchantOrderId);
     }
     return NextResponse.json({ ok: true });

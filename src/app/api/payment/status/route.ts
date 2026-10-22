@@ -10,7 +10,7 @@ export async function GET(req: Request) {
   try {
     await ensureDb();
     const orderNumber = new URL(req.url).searchParams.get("order") || "";
-    if (!/^SSC-\d+$/.test(orderNumber)) {
+    if (!/^BAS-\d+$/.test(orderNumber)) {
       return NextResponse.json({ error: "Invalid order." }, { status: 400 });
     }
     const first = await db.select().from(orders).where(eq(orders.orderNumber, orderNumber)).limit(1);

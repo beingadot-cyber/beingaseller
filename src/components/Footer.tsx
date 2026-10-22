@@ -34,7 +34,7 @@ export default function Footer({ settings }: { settings: Record<string, string> 
           <ul className="space-y-1 text-sm">
             <li><Link href="/" className="transition hover:text-cream">Home</Link></li>
             <li><Link href="/products" className="transition hover:text-cream">All Products</Link></li>
-            <li><Link href="/products?category=Clothing" className="transition hover:text-cream">Clothing</Link></li>
+            <li><Link href="/products?category=Shirts" className="transition hover:text-cream">Shirts</Link></li>
             <li><Link href="/products?category=Gadgets" className="transition hover:text-cream">Gadgets</Link></li>
             <li><Link href="/cart" className="transition hover:text-cream">Cart</Link></li>
             <li><Link href="/account" className="transition hover:text-cream">My Account</Link></li>

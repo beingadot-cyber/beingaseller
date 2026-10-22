@@ -140,11 +140,6 @@ export default async function ProductPage({
           {product.description && (
             <p className="mt-4 text-sm leading-relaxed text-plum/85">{product.description}</p>
           )}
-          {product.productCode === "SSC-010" && (
-            <p className="mt-2 text-xs font-semibold text-plumsoft">
-              Sold as a pair — price includes 2 pieces.
-            </p>
-          )}
 
           <div className="mt-6 border-t border-plum/10 pt-6">
             <BuyBox code={product.productCode} stock={product.stockQuantity} />

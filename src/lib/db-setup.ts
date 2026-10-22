@@ -118,21 +118,21 @@ const SEED_PRODUCTS: {
   featured?: boolean;
   bestseller?: boolean;
 }[] = [
-  { code: "SSC-001", name: "Handcrafted Diya Thali", price: 175, category: "Diya & Thali", description: "A beautifully handcrafted decorative diya thali adorned with festive embellishments. Perfect for pooja rituals, Diwali celebrations and as a thoughtful festive gift.", stock: 25, bestseller: true },
-  { code: "SSC-002", name: "Peacock Shubh Labh Hanging", price: 175, category: "Shubh Labh", description: "Elegant peacock-themed Shubh Labh hanging for doors and entrances. A charming symbol of prosperity and good fortune for your home.", stock: 30, bestseller: true },
-  { code: "SSC-003", name: "Floral Shubh Labh Hanging Set", price: 200, category: "Shubh Labh", description: "Delicate floral Shubh Labh hanging set, handcrafted to bring festive warmth to your doorway during celebrations.", stock: 22 },
-  { code: "SSC-004", name: "Blue Evil Eye Hanging Décor", price: 399, category: "Wall Hangings", description: "Striking blue evil eye hanging décor piece that blends protection symbolism with graceful handcrafted styling.", stock: 15, featured: true },
-  { code: "SSC-005", name: "Lotus & Pearl Shubh Labh Hanging Set", price: 250, category: "Shubh Labh", description: "Graceful lotus and pearl Shubh Labh hanging set. A soft, feminine accent piece for festive entrances and pooja spaces.", stock: 18 },
-  { code: "SSC-006", name: "Peacock Floral Tea Light Holder", price: 450, category: "Tea Lights", description: "Ornate peacock and floral tea light holder that casts a warm festive glow. A statement décor piece for tables and corners.", stock: 12, bestseller: true },
-  { code: "SSC-007", name: "Pink Floral Mirror Work Toran", price: 899, category: "Torans", description: "Vibrant pink floral toran with traditional mirror work. Handcrafted to brighten doorways with festive elegance.", stock: 10, featured: true },
-  { code: "SSC-008", name: "Double Peacock Shubh Labh Hanging", price: 399, category: "Shubh Labh", description: "Double peacock Shubh Labh hanging with rich detailing. Brings a regal festive touch to entrances and pooja rooms.", stock: 14 },
-  { code: "SSC-009", name: "Blue Floral Shubh Labh Hanging Set", price: 375, category: "Shubh Labh", description: "Serene blue floral Shubh Labh hanging set, handcrafted with delicate detailing for festive doorways.", stock: 16, bestseller: true },
-  { code: "SSC-010", name: "Pink Floral Tea Light Holder Pair", price: 175, category: "Tea Lights", description: "Charming pink floral tea light holders, sold as a pair (2 pieces). Adds a soft, romantic glow to festive tablescapes and pooja thalis.", stock: 28, bestseller: true },
-  { code: "SSC-011", name: "Maroon & White Floral Festive Toran", price: 1100, category: "Torans", description: "Luxurious maroon and white floral festive toran. A premium handcrafted statement piece for grand entrances.", stock: 8, featured: true },
-  { code: "SSC-012", name: "Festive Table Runner & Diya Holder Set", price: 450, category: "Table Décor", description: "Coordinated festive table runner with matching diya holders. Transforms your dining or console table for celebrations.", stock: 12 },
-  { code: "SSC-013", name: "Square Diya / Pooja Thali", price: 175, category: "Diya & Thali", description: "Contemporary square diya / pooja thali with handcrafted festive detailing. Ideal for rituals and gifting.", stock: 25 },
-  { code: "SSC-014", name: "Peacock & Pearl Shubh Labh Toran", price: 1100, category: "Torans", description: "Majestic peacock and pearl Shubh Labh toran. A premium handcrafted showpiece for festive entrances.", stock: 8, featured: true },
-  { code: "SSC-015", name: "Lotus, Pearl & Bell Toran", price: 1100, category: "Torans", description: "Dreamy lotus, pearl and bell toran that pairs soft florals with gentle chimes. Perfect for pooja rooms and doorways.", stock: 9, bestseller: true },
+  { code: "BAD1", name: "Classic White Oxford Shirt", price: 899, category: "Shirts", description: "A crisp cotton Oxford shirt with a tailored fit. Easy to dress up for work or down with jeans.", stock: 30, bestseller: true },
+  { code: "BAD2", name: "Slim Fit Blue Denim Jeans", price: 1499, category: "Jeans", description: "Stretch denim jeans with a clean slim fit and a classic mid-blue wash. Comfortable all day.", stock: 25, featured: true, bestseller: true },
+  { code: "BAD3", name: "Embroidered Cotton Kurta", price: 1199, category: "Kurtas", description: "Soft cotton kurta with fine thread embroidery at the neckline. Light, breathable and perfect for everyday wear.", stock: 22, bestseller: true },
+  { code: "BAD4", name: "Oversized Graphic T-Shirt", price: 699, category: "T-Shirts", description: "Drop-shoulder oversized tee in heavy cotton with a bold back graphic. A street-style staple.", stock: 40, bestseller: true },
+  { code: "BAD5", name: "Black Cargo Joggers", price: 1299, category: "Joggers", description: "Relaxed cargo joggers with utility pockets and an elastic cuff. Built for comfort on the move.", stock: 28 },
+  { code: "BAD6", name: "Floral Print Anarkali Kurta", price: 1799, category: "Kurtas", description: "Flowing Anarkali kurta in a soft floral print with a flared hem. A graceful pick for festive days.", stock: 18, featured: true },
+  { code: "BAD7", name: "Wireless Earbuds Pro", price: 1999, category: "Gadgets", description: "True wireless earbuds with active noise cancellation, deep bass and a charging case for up to 24 hours of playtime.", stock: 35, featured: true, bestseller: true },
+  { code: "BAD8", name: "Smart Fitness Watch", price: 2499, category: "Gadgets", description: "AMOLED smartwatch with heart-rate and sleep tracking, 100+ sport modes and a week-long battery.", stock: 20, featured: true, bestseller: true },
+  { code: "BAD9", name: "Fleece Zip Hoodie", price: 1299, category: "Hoodies", description: "Warm brushed-fleece zip hoodie with a kangaroo pocket. Soft, cosy and easy to layer.", stock: 26 },
+  { code: "BAD10", name: "Linen Casual Shirt", price: 1099, category: "Shirts", description: "Breathable linen-blend shirt with a relaxed fit. Ideal for warm days and weekend outings.", stock: 24 },
+  { code: "BAD11", name: "High Waist Mom Jeans", price: 1599, category: "Jeans", description: "Vintage-style high waist jeans with a relaxed leg and a flattering fit. A modern classic.", stock: 20, bestseller: true },
+  { code: "BAD12", name: "Portable Bluetooth Speaker", price: 1499, category: "Gadgets", description: "Water-resistant Bluetooth speaker with punchy sound, 12-hour battery and a built-in mic.", stock: 30 },
+  { code: "BAD13", name: "Silk Blend Festive Kurta Set", price: 2299, category: "Kurtas", description: "Kurta, pants and dupatta set in a silk blend with subtle zari detailing. Made for celebrations.", stock: 12, featured: true },
+  { code: "BAD14", name: "Quilted Puffer Jacket", price: 2799, category: "Jackets", description: "Lightweight quilted puffer jacket with a stand collar and zip pockets. Warm without the bulk.", stock: 14 },
+  { code: "BAD15", name: "White Canvas Sneakers", price: 1799, category: "Footwear", description: "Clean low-top canvas sneakers with a cushioned insole and durable rubber sole. Goes with everything.", stock: 32, bestseller: true },
 ];
 
 const SETTING_DEFAULTS: Record<string, string> = {

@@ -132,7 +132,7 @@ export async function POST(req: Request) {
           orderStatus: "pending",
         })
         .returning({ id: orders.id });
-      const orderNumber = `SSC-${String(created.id).padStart(5, "0")}`;
+      const orderNumber = `BAS-${String(created.id).padStart(5, "0")}`;
       await tx
         .update(orders)
         .set({ orderNumber })

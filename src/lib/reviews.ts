@@ -15,16 +15,16 @@ const FEMALE_NAMES = [
 const MALE_NAMES = ["Rahul Mehta", "Arjun Reddy", "Vikram Singh", "Karan Shah", "Aditya Joshi"];
 
 const REVIEW_TEXTS = [
-  "Beautifully packed and the {p} looks even better in person. Our whole family loved it for Diwali.",
-  "Exactly as shown in the photos. The finishing is neat and the colours are rich.",
-  "Ordered the {p} as a housewarming gift and it was a huge hit. Will definitely order again.",
-  "Lovely handmade quality. You can tell real care went into every detail.",
-  "Arrived safely and on time. It has transformed our entrance — guests keep asking where we got it.",
-  "The {p} is sturdy, well made and perfect for the festive season. Very happy with the purchase.",
-  "Gifted this to my mother-in-law and she was thrilled. Thank you for the thoughtful packaging.",
-  "Great value for handcrafted work. The details are beautiful up close.",
-  "Customer service was quick to answer my questions before ordering. The {p} is just right.",
-  "Adds such a warm, festive touch to our home. Simple, elegant and well finished.",
+  "Great quality for the price. The {p} looks even better in person.",
+  "Exactly as shown in the photos. Fit and finish are spot on.",
+  "Ordered the {p} for myself and ended up buying another as a gift. Highly recommend.",
+  "Lovely quality and packed neatly. You can tell care went into it.",
+  "Arrived quickly and well packed. Very happy with the {p}.",
+  "The {p} is well made, comfortable and exactly what I was looking for.",
+  "Gifted this to a friend and they loved it. Thank you for the careful packaging.",
+  "Excellent value. The details are great up close.",
+  "Customer service answered my questions quickly before ordering. The {p} is just right.",
+  "Stylish, simple and well finished. I keep getting compliments.",
 ];
 
 export type ProductReview = { name: string; rating: number; message: string };
